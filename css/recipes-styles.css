@@ -1,15 +1,58 @@
-body {
-	width: 1000px;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	/*padding: 0;*/
+}
+
+.recipe, .ingredients, .steps {
+	width: 100%;
+}
+
+.recipe {
+	background-color: #89b2a2;
+}
+
+.ingredients {
+	background-color: #fafad4;
+}
+
+.steps {
+	background-color: #fb7968;
+}
+
+article {
+	width: 1200px;
 	margin: auto;
+	background-color: #fff;
+	padding: 30px;
 }
 
 .principal-photo {
-	width: 725px;
+	width: 900px;
 	height: auto;
+	display: block;
+	margin: 10px auto;
+}
+
+.source {
+	font-size: 12px;
+	text-align: right;
+	width: 900px;
+	margin: 10px auto;
 }
 
 h1 {
-	background-color: #aee;
+	font-size: 35px;
+	padding: 10px;
+	text-align: center;
+	width: 900px;
+	margin: 10px auto;
+	background-color: #b0d1b2;
+}
+
+.info {
+	width: 950px;
+	margin: 10px auto;
 }
 
 p, li {
@@ -18,5 +61,6 @@ p, li {
 }
 
 h3 {
-	color: #080;
+	color: #070;
+	font-size: 24px;
 }
